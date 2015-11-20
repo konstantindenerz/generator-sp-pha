@@ -26,10 +26,12 @@ module.exports = function(Generator) {
       cpt('Web.Release.config');
       cpt('TokenHelper.cs');
       cpt('SharePointContext.cs');
+      cpt('SharePointApiControllerContext.cs');
       cpt('Global.asax.cs');
       cpt('Global.asax');
       cp('packages.config');
       cp('favicon.ico');
+      cp('log4net.config');
       //cp('App_Data');
       //cp('Models');
       cpt('Properties/AssemblyInfo.cs');
@@ -37,5 +39,7 @@ module.exports = function(Generator) {
       cpt('Controllers/**/**.*', 'Controllers');
       cpt('App_Start/**/**.*', 'App_Start');
       cpt('Views/**/**.*', 'Views');
+      cpt('Utility/**/**.*', 'Utility');
+      cpt('Di/**/**.*', 'Di');
     };
 };
