@@ -1,0 +1,29 @@
+[
+  {
+    "type": "input",
+    "name": "solutionName",
+    "message": "Your Visual Studio solution name",
+    "default": "<%= solutionName %>"
+  },
+  {
+    "type": "input",
+    "name": "clientId",
+    "message": "Your client ID",
+    "default": "<%= clientId %>"
+  },
+  {
+    "type": "input",
+    "name": "certificatePath",
+    "message": "The full qualified path to the client certificate file (.pfx)"
+  },
+  {
+    "type": "password",
+    "name": "certificatePassword",
+    "message": "The password of the client certificate"
+  },
+  {
+    "type": "input",
+    "name": "issuerId",
+    "message": "Your Issuer ID (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)"
+  }
+]
